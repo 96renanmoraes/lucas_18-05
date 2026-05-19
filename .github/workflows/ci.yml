@@ -31,4 +31,4 @@ jobs:
 
       # 4. Executa os testes
       - name: Executar pytest
-        run: pytest -v
+        run: pytest teste_calculadora.py -v
