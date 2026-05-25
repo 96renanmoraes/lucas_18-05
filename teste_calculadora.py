@@ -33,3 +33,9 @@ def test_divisao_por_zero():
     with pytest.raises(ValueError):
         calc.divisao(10, 0)
 
+def test_potenciacao():
+    calc = Calculadora()
+    assert calc.potenciacao(2, 10) == 1024
+    assert calc.potenciacao(5, 0) == 1
+    assert calc.potenciacao(3, 3) == 27
+    assert calc.potenciacao(2, -1) == 0.5

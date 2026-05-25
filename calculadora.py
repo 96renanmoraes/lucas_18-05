@@ -13,4 +13,5 @@ class Calculadora:
             raise ValueError("Divisão por zero não permitida")
         return a / b
 
-    
+    def potenciacao(self, base, expoente):
+        return base ** expoente
